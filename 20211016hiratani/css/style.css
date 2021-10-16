@@ -1,158 +1,158 @@
-body{
+body {
   width: 100%;
   margin: 0 auto;
   color: #000000;
 }
 
-
-.main{
+.main {
   width: 100%;
 }
-.footer{
+.footer {
   background: #f3f3f2;
   color: #fff;
-  height: 40px;
+  height: 30px;
   width: 100%;
   color: #000000;
   text-align: center;
+  padding: 10px 0px;
 }
 
-.footer > small{
+.footer > small {
   font-size: 5px;
 }
 
-.main-box{
+.main-box {
   padding: 1% 15%;
 }
 
-.main-box:first-child,.main-box:nth-of-type(2n+1){
+.main-box:first-child,
+.main-box:nth-of-type(2n + 1) {
   background-color: #f3f3f2;
 }
-.main-title{
-    height: 400px;
+.main-title {
+  height: 400px;
 }
-.main-news{
-    height: 550px;
-}
-.main-about{
-    height: 500px;
-}
-.main-service{
-    height: 750px;
-}
-.main-blog{
+.main-news {
   height: 550px;
 }
-.main-company{
+.main-about {
   height: 500px;
 }
-.main-infomation{
-  height: 600px;
+.main-service {
+  height: 750px;
+}
+.main-blog {
+  height: 550px;
+}
+.main-company {
+  height: 500px;
+}
+.main-infomation {
+  height: 620px;
 }
 
 /* header css */
-.header{
+.header {
   height: 50px;
-  width:100%;
+  width: 100%;
   display: flex;
   justify-content: space-between;
 }
-.header-title{
+.header-title {
   width: 200px;
+  margin-left: 20px;
 }
-.header img{
+.header img {
   width: 100%;
 }
-.header-nav{
+.header-nav {
   padding: 10px 10px;
 }
-.header-nav-list{
+.header-nav-list {
   display: flex;
 }
-.header-nav-list-icon{
-
+.header-nav-list-icon {
 }
-.header-nav-list-icon{
+.header-nav-list-icon {
   margin-right: 30px;
 }
 
-.header-nav-list-icon>a{
+.header-nav-list-icon > a {
   color: inherit;
   text-decoration: none;
 }
-.main-title-wrapper{
+.main-title-wrapper {
   background-color: red;
   position: relative;
 }
 
-.main-title-image{
+.main-title-image {
   height: 400px;
   float: right;
 }
-.main-title-image>img{
-  height:400px;
+.main-title-image > img {
+  height: 400px;
 }
-.main-title-contents{
+.main-title-contents {
   position: absolute;
   top: 40px;
   left: 10%;
 }
 
-
-.main-title-h1{
-  font-family: 'Architects Daughter', cursive;
-  font-size: 50px;
+.main-title-h1 {
+  font-family: "Architects Daughter", cursive;
+  font-size: 70px;
+  line-height: 90px;
+  padding: 20px 0px;
 }
-.main-title-h1,.main-title-h2{
+.main-title-h2 {
   font-size: 30px;
-  color: #c71585;
   line-height: 70px;
-
 }
-span{
+.main-title-h1,
+.main-title-h2 {
+  color: #c71585;
+}
+
+span {
   color: #008080;
 }
-.main-title-p{
+.main-title-p {
   font-size: 15px;
   color: black;
 }
 
 /* 共通部品 */
-.english-title{
-  font-family: 'Architects Daughter', cursive;
+.english-title {
+  font-family: "Architects Daughter", cursive;
   color: #c71585;
   padding: 10px 0;
 }
-
-
 
 /* list css */
 .main-news-wrapper {
   margin: 30px 0;
 }
 
-
-.main-news-title-h2{
+.main-news-title-h2 {
   font-size: 30px;
   color: #696969;
   font-weight: bold;
   margin-bottom: 25px;
 }
 
-
 .main-news-list {
   padding: 30px 6px;
   list-style: none;
   border-top: 2px solid #c0c0c0;
   border-bottom: 2px solid #c0c0c0;
-
 }
-.main-news-list-item{
+.main-news-list-item {
   line-height: 50px;
   color: #555;
   border-bottom: 1.5px solid #c0c0c0;
 }
-.main-news-list-item-icon{
+.main-news-list-item-icon {
   display: inline;
   text-align: center;
   background-color: #c71585;
@@ -162,37 +162,34 @@ span{
   margin: 0px 30px;
 }
 /* about css */
-.main-about-wrapper{
+.main-about-wrapper {
   padding: 30px 0px;
 }
-.main-about-title-h2{
+.main-about-title-h2 {
   font-size: 30px;
   color: #696969;
   font-weight: bold;
   margin-bottom: 25px;
 }
 
-.main-about-title{
+.main-about-title {
   text-align: center;
 }
-.main-about-contents-wrapper{
+.main-about-contents-wrapper {
   display: flex;
   justify-content: space-between;
 }
-.main-about-contents-wrapper-text{
+.main-about-contents-wrapper-text {
   font-size: 15px;
-  width:40%;
-}
-.main-about-contents-wrapper-image{
   width: 40%;
 }
-.main-about-contents-wrapper-image > img{
+.main-about-contents-wrapper-image {
+  width: 40%;
+}
+.main-about-contents-wrapper-image > img {
   /* width: 100% */
   height: 300px;
 }
-
-
-
 
 /* service css */
 .main-service-wrapper {
@@ -200,7 +197,7 @@ span{
 }
 
 /* タイトル */
-.main-service-title-h2{
+.main-service-title-h2 {
   font-size: 30px;
   color: #696969;
   font-weight: bold;
@@ -208,59 +205,62 @@ span{
 }
 
 /* 最初の箱 */
-.main-service-contents-box:first-child{
+.main-service-contents-box:first-child {
   width: 40%;
   height: 500px;
   display: inline-block;
   float: left;
-  background-color:#c71585;
+  background-color: #c71585;
   text-align: center;
   padding: 30px 5%;
 }
+
 /* 最初以外の箱 */
-.main-service-contents-box:not(:first-child){
-  width: 45%;
+.main-service-contents-box:not(:first-child) {
+  width: 50%;
   height: 250px;
   display: inline-block;
   float: left;
   padding: 15px 0;
-  padding-right: 5%;
+  /* padding-right: 5px; */
 }
-.main-service-contents-box:nth-of-type(2){
+.main-service-contents-box:nth-of-type(2) {
   background-color: #993366;
-
 }
-.main-service-contents-box:nth-of-type(3){
+.main-service-contents-box:nth-of-type(3) {
   background-color: #cc6699;
 }
 
-.main-service-contents-bigbox-image{
+.main-service-contents-bigbox-image {
   width: 50%;
   height: 50%;
 }
 
-.main-service-contents-box-image{
+.main-service-contents-box-image {
   width: 50%;
   height: 100%;
   float: left;
   display: inline-block;
-
 }
-.main-service-contents-box-title{
+.main-service-contents-box-title {
   color: #f0f8ff;
   font-weight: bold;
   font-size: 25px;
   padding: 10px 0;
 }
-.main-service-contents-box-text{
+.main-service-contents-box-text {
   color: #f0f8ff;
   font-size: 15px;
-  padding: 0 20px;
+  /* padding: 0 10px; */
+  width: 100%;
 }
-.main-service-contents-box-title:nth-child(1){
+.main-service-contents-box-text-first {
+  text-align: left;
+}
+.main-service-contents-box-title:nth-child(1) {
   padding-top: 50px;
 }
-.main-service-contents-box-title:nth-child(2){
+.main-service-contents-box-title:nth-child(2) {
   padding-top: 50px;
 }
 
@@ -268,86 +268,86 @@ span{
 .main-blog-wrapper {
   margin: 30px 0;
 }
-.main-blog-title-h2{
+.main-blog-title-h2 {
   font-size: 30px;
   color: #696969;
   font-weight: bold;
   margin-bottom: 25px;
 }
-.main-blog-contents{
+.main-blog-contents {
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
 }
 
-.main-blog-contents-cord{
+.main-blog-contents-cord {
   position: relative;
   border-style: solid;
   width: 250px;
   border-radius: 10px;
   transition: 0.5s;
   border: 1px solid #f8f8ff;
+  background-color: #ffffff;
 }
-.main-blog-contents-cord-title{
+.main-blog-contents-cord-title {
   font-size: 15px;
   font-weight: bold;
 }
 
-.main-blog-contents-cord-image{
+.main-blog-contents-cord-image {
   width: 100%;
   border-radius: 10px 10px 0px 0px;
 }
 
-.main-blog-contents-cord-image > img{
+.main-blog-contents-cord-image > img {
   width: 100%;
   border-radius: 10px 10px 0px 0px;
 }
 
-.main-blog-contents-cord-image-icon{
+.main-blog-contents-cord-image-icon {
   position: absolute;
   top: 0%;
   left: 0%;
-  background-color:#c71585;
+  background-color: #c71585;
   border-radius: 10px 0px 0px 0px;
   display: inline-block;
   color: #ffffff;
   padding: 10px 15px;
 }
 
-.main-blog-contents-cord-bottom{
+.main-blog-contents-cord-bottom {
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   font-size: 13px;
   padding-top: 30px;
 }
 
-.main-blog-contents-cord-wrapper{
+.main-blog-contents-cord-wrapper {
   padding: 15px 15px;
   background: #ffffff;
   border-radius: 10px;
 }
-.main-blog-link{
+.main-blog-link {
   color: #c71585;
   text-align: center;
   margin: 20px 0px;
 }
-.main-blog-link-text{
+.main-blog-link-text {
   background: #ffffff;
   display: inline-block;
   border: 2px solid #c71585;
   border-radius: 30px;
   padding: 10px 30px;
-
 }
 
 /* company css */
-.main-company-title-h2{
+.main-company-title-h2 {
   font-size: 30px;
   color: #696969;
   font-weight: bold;
   margin-bottom: 25px;
 }
-.main-company-wrapper{
+.main-company-wrapper {
   margin: 40px 20px;
 }
 
@@ -360,29 +360,27 @@ table {
 table th {
   text-align: left;
   padding: 10px 10px;
-  border:solid 1px #c0c0c0;
-  background-color:#dcdcdc;
+  border: solid 1px #c0c0c0;
+  background-color: #f3f3f2;
 }
-
 
 table td {
   text-align: left;
   padding: 10px 10px;
-  border:solid 1px #c0c0c0;
-
+  border: solid 1px #c0c0c0;
 }
 
 /* infomation css */
-.main-infomation-wrapper{
+.main-infomation-wrapper {
   text-align: center;
 }
-.main-infomation-image{
+.main-infomation-image {
   width: 100%;
   background-color: red;
   display: flex;
   justify-content: space-between;
 }
-.main-infomation-image-contents{
+.main-infomation-image-contents {
   width: 50%;
   height: 300px;
   background-size: cover;
@@ -392,45 +390,53 @@ table td {
   color: #ffffff;
   font-weight: bold;
 }
-.main-infomation-image-contents > a{
+.main-infomation-image-contents > a {
   display: inline-block;
   margin: 130px auto;
 }
 
-.main-infomation-image-contents:first-child{
+.main-infomation-image-contents:first-child {
   background-image: url("../img/recruit.png");
 }
-.main-infomation-image-contents:nth-of-type(2){
+.main-infomation-image-contents:nth-of-type(2) {
   background-image: url("../img/interview.png");
 }
 
-
-.main-infomation-submit{
+.main-infomation-submit {
   margin: 50px auto;
 }
 
-.main-infomation-submit-button{
+.main-infomation-submit-button {
   display: flex;
   flex-direction: row-reverse;
-  margin: 50px auto;
-  background-color: #c71585;
+  margin: 40px auto 0px;
+  background: linear-gradient(90deg, #e4007f, #941f57);
   display: inline-block;
   border-radius: 30px;
   padding: 10px 10px;
   color: #ffffff;
   width: 150px;
-  box-shadow: 0px 5px 0px #0f0000;
+  box-shadow: 0px 5px 0px #9f166a;
 }
-.main-infomation-submit-icon{
+.main-infomation-submit-icon {
   width: 15px;
   display: inline-block;
 }
-.main-infomation-submit > p{
+.main-infomation-submit > p {
   color: #333631;
   font-size: 20px;
   font-weight: bold;
 }
 
-.main-infomation-submit-button > a{
+.main-infomation-submit-button > a {
   display: inline-block;
+}
+
+.main-infomation-submit-line {
+  margin: 0 auto;
+  width: 1px;
+  height: 50px;
+  margin-top: 25px;
+  background-color: #c71585;
+  box-shadow: 1px 0.1px 0px #f5f5f5;
 }
